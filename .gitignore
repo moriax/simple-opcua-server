@@ -1,0 +1,17 @@
+# Built binaries. Anchored to the repository root so that the pattern does not
+# also match the cmd/simple-opcua-server directory.
+/dist/
+/simple-opcua-server
+/simple-opcua-server.exe
+
+# Generated at runtime, and specific to one machine
+cert.pem
+cert.der
+key.pem
+values.json
+*.log
+
+# Tag files hold plant data and are not part of this repository.
+# config/AddressSpace.example.csv is the one exception, and is checked in.
+config/*.csv
+!config/AddressSpace.example.csv
