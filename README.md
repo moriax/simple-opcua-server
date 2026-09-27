@@ -430,3 +430,7 @@ go test ./...
 ## Built on
 
 [gopcua](https://github.com/gopcua/opcua), MIT licensed.
+
+## License
+
+MIT, see [LICENSE](LICENSE).

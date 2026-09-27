@@ -15,3 +15,12 @@ values.json
 # config/AddressSpace.example.csv is the one exception, and is checked in.
 config/*.csv
 !config/AddressSpace.example.csv
+
+# Never commit private keys. A deploy key's private half belongs on the machine
+# that pushes, not in the repository it pushes to.
+id_rsa*
+id_ecdsa*
+id_ed25519*
+*_ed25519
+*.pem
+!config/*.pem
